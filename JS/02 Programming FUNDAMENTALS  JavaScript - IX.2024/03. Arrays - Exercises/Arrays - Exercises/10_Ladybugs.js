@@ -1,7 +1,8 @@
 function arrManipulator (inputArr) {
 
 let fieldSize = +inputArr[0]
-let ladybugsStr = inputArr[1].split(' ')
+let ladybugsStr = inputArr[1].split(' ')          //  optional:     .split(' ').map(Number);
+
 
 let ladybugArr = []
 
