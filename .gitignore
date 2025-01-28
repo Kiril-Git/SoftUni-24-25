@@ -396,5 +396,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
-
-!Java/07.Spring Fundamentals/MobiLeLeLe web application/mobilele/
+!Soft-Uni\Java\07. Spring Fundamentals\WebApp Mobilele\mobilele
