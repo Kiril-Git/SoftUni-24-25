@@ -11,3 +11,13 @@ function printJson2Object(inputStr) {
 
 printJson2Object('{"name": "George", "age": 40, "town": "Sofia"}')
 
+
+
+
+
+
+
+// print:              name: George
+//                     age: 40
+//                     town: Sofia
+//

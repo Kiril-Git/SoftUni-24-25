@@ -33,3 +33,11 @@ function catClassBuilder(inputArr) {
 }
 
 catClassBuilder(['Mellow 2', 'Tom 5'])
+
+
+
+
+
+// print:              Mellow, age 2 says Meow
+//                     Tom, age 5 says Meow
+//

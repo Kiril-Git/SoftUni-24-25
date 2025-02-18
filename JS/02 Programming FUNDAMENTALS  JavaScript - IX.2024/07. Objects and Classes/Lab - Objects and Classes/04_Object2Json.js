@@ -19,3 +19,8 @@ function printObject2Json(name, lastName, hairColor) {
 }
 
 printObject2Json ('George', 'Jones', 'Brown')
+
+
+
+// print:              {"name":"George","lastName":"Jones","hairColor":"Brown"}
+//

@@ -27,7 +27,7 @@ function songsClassifier (inputArr) {
         let name = songArr[1]
         let time = songArr[2]
 
-        let song = new Song(songArr, name, time)
+        let song = new Song(songGenre, name, time)
 
         if ( genre === 'all') {
             songGenre = genre
@@ -41,3 +41,8 @@ function songsClassifier (inputArr) {
 
 songsClassifier ([2, 'like_Replay_3:15', 'ban_Photoshop_3:48', 'all'])
 
+
+
+// print:              Replay
+//                     Photoshop
+//

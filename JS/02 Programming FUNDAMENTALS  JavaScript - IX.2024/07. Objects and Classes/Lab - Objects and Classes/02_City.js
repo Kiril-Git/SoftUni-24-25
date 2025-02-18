@@ -12,3 +12,14 @@ function printObjectValues (inputStr) {
 }
 
 printObjectValues({ name: "Sofia", area: 492, population: 1238438, country: "Bulgaria", postCode: "1000" } )
+
+
+
+
+
+// print:                              name -> Sofia
+//                                     area -> 492
+//                                     population -> 1238438
+//                                     country -> Bulgaria
+//                                     postCode -> 1000
+//
