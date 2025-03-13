@@ -1,20 +1,22 @@
-function extractEmailsByReg (inputStr) {
+function extractEmailsByReg(inputStr) {
+    
+    let regex = /(^|(?<=\s))[a-z\d]+(?:[._-][a-z\d]+)*@[a-z]+(?:-[a-z]+)*(\.[a-z]+)+\b/g
 
-    let textArr = inputStr.split(' ')
+    let matches = inputStr.match(regex);
 
-    let regex = /\b[a-z0-9A-Z]+(?:[_.-][a-z0-9A-Z]+)*@[a-z]+(?:-[a-z]+)*(?:\.[a-z]+(?:-[a-z]+)*)+\b/g
-
-    for (let el of textArr) {
-
-        let match = el.match(regex)
-
-        if (match) {
-
-            console.log(el)
-        }
+    if (matches) {
+        matches.forEach(email => console.log(email));
     }
-
-
 }
 
-extractEmailsByReg('Just send email to s.miller@mit.edu and j.hopking@york.ac.uk. for more information.')
+
+extractEmailsByReg(`Just send email to s.miller@mit.edu and j.hopking@york.ac.uk for more information.`)
+
+
+
+
+
+// print:              s.miller@mit.edu
+//                     j.hopking@york.ac.uk
+
+//
