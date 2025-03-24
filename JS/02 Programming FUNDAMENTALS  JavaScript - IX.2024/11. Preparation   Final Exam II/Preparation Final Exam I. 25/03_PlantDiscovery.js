@@ -50,7 +50,6 @@ function assArrManipulator(inputArr) {
             break
 
             case 'Reset':
-                commandArr = commandArr[0].split(' - ')
                 pName = commandArr[0]
                 
                 if (herbarium[pName]) {
